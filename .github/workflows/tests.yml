@@ -30,5 +30,5 @@ jobs:
       - name: Install and run frontend tests
         working-directory: frontend
         run: |
-          npm ci
+          npm install
           npm test -- --watchAll=false --silent
